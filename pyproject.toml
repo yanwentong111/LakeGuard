@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lakeguard"
-version = "0.1.0"
+version = "1.0.1"
 description = "Local-first data quality checks for CSV and Parquet"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -28,4 +28,5 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+
 
