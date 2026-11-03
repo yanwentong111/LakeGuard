@@ -1,0 +1,13 @@
+dataset: invalid_orders
+source: data/orders_invalid.csv
+rules:
+  - type: not_null
+    column: amount
+  - type: unique
+    column: order_id
+  - type: min
+    column: amount
+    value: 0
+  - type: accepted_values
+    column: status
+    values: [new, paid, cancelled]

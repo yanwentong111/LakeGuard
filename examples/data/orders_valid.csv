@@ -1,0 +1,4 @@
+order_id,amount,status
+1,10.5,new
+2,25,paid
+3,0,cancelled

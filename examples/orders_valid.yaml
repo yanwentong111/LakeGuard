@@ -1,0 +1,18 @@
+# Example order data rules. Source paths are relative to this YAML file.
+dataset: orders
+source: data/orders_valid.csv
+output: results.json
+rules:
+  - type: not_null
+    column: order_id
+  - type: unique
+    column: order_id
+  - type: min
+    column: amount
+    value: 0
+  - type: max
+    column: amount
+    value: 1000
+  - type: accepted_values
+    column: status
+    values: [new, paid, cancelled]

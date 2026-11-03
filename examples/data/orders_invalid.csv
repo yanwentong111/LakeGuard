@@ -1,0 +1,4 @@
+order_id,amount,status
+1,10.5,new
+1,-5,unknown
+3,,paid
