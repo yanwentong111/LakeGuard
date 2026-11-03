@@ -1,10 +1,8 @@
 # LakeGuard
 
-[![CI](https://github.com/<owner>/LakeGuard/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/LakeGuard/actions/workflows/ci.yml)
+[![CI](https://github.com/yanwentong111/LakeGuard/actions/workflows/ci.yml/badge.svg)](https://github.com/yanwentong111/LakeGuard/actions/workflows/ci.yml)
 
 **在本地快速检查 CSV 和 Parquet 数据质量。** LakeGuard 使用 DuckDB 在进程内读取文件并执行 SQL 检查，通过命令行和 YAML 配置输出 JSON 结果或静态 HTML 报告。无需启动数据库服务器，无需上传数据。
-
-> 将徽章链接中的 `<owner>` 替换为 GitHub 用户名或组织名后再发布。
 
 ## 解决什么问题
 
@@ -25,7 +23,7 @@ LakeGuard 面向数据工程师、数据分析师和 Python 开发者，提供�
 要求 Python 3.11 或更新版本。建议在项目虚拟环境中安装：
 
 ```bash
-git clone https://github.com/<owner>/LakeGuard.git
+git clone https://github.com/yanwentong111/LakeGuard.git
 cd LakeGuard
 python -m venv .venv
 ```
@@ -188,4 +186,5 @@ GitHub Actions 会在 Python 3.11、3.12 和 3.13 上运行 lint、测试和 CLI
 ## 许可证
 
 [MIT](LICENSE)
+
 
